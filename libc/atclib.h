@@ -61,3 +61,5 @@ extern char getchar();
 extern void strcpy(char dest[], const char source[]);
 extern void itoa(int num, char *number);
 extern int atoi(char* s);
+//Bitmaps
+extern int bitmap_first_unset(uint32_t *bitmap, uint8_t size);
