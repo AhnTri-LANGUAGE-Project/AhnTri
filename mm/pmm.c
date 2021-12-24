@@ -117,6 +117,7 @@ void *pmallocblocks(int count){
 
 		return (void*)(BLOCK_SIZE*bitmap_first_unset(pmmap, max_blocks));
 	}
+	return 0;
 }
 
 void print_pmm_info(){
